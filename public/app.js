@@ -149,7 +149,7 @@
   $('#close-success-action').addEventListener('click', () => { $('#success-modal').hidden = true; });
   $('#success-modal').addEventListener('click', (event) => { if (event.target.id === 'success-modal') $('#success-modal').hidden = true; });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !$('#review-modal').hidden) closeModal(); });
-  $('.menu-button').addEventListener('click', () => showToast('Use the links below to browse DataRelay.'));
+  $('.menu-button').addEventListener('click', () => showToast('Use the links below to browse SignalNest.'));
 
   renderPlans();
   updateSummary();

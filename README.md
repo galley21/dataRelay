@@ -1,4 +1,4 @@
-# DATARELAY — DATA BUNDLE SITE
+# SIGNALNEST — DATA BUNDLE SITE
 
 This directory is a standalone Site B deployment. It can be copied to a completely
 separate server or folder without copying the Phantom Cards application.
